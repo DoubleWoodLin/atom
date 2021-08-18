@@ -51,6 +51,7 @@ const Login = () => {
         setType("login");
       }
     } catch (error) {
+      console.log(error);
       Toast.show("系统错误");
     }
   };
