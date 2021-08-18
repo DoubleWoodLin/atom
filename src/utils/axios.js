@@ -6,8 +6,8 @@ import {
 const MODE =
     import.meta.env.MODE; // 环境变量
 
-axios.defaults.baseURL =
-    MODE == "development" ? "/api" : "http://121.5.46.69:7001";
+axios.defaults.baseURL = "/api";
+// MODE == "development" ? "/api" : "http://121.5.46.69:7001";
 axios.defaults.withCredentials = true;
 axios.defaults.headers["X-Requested-With"] = "XMLHttpRequest";
 axios.defaults.headers["Authorization"] = `${

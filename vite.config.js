@@ -29,15 +29,15 @@ export default defineConfig({
             },
         },
     },
-    // server: {
-    //   proxy: {
-    //     "/api": {
-    //       target: "http://localhost:7001",
-    //       changeOrigin: true,
-    //       rewrite: (path) => path.replace(/^\/api/, ""),
-    //     },
-    //   },
-    // },
+    server: {
+        proxy: {
+            "/api": {
+                target: "http://121.5.46.69:7001",
+                changeOrigin: true,
+                rewrite: (path) => path.replace(/^\/api/, ""),
+            },
+        },
+    },
     resolve: {
         alias: {
             "@": path.resolve(__dirname, "src"),
