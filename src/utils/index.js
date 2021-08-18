@@ -18,8 +18,7 @@ export const imgUrlTrans = (url) => {
         return url;
     } else {
         url = `${
-          baseUrl
-      // MODE == "development" ? baseUrl : "http://121.5.46.69:7001"
+      MODE == "development" ? baseUrl : "http://121.5.46.69:7001"
     }${url}`;
         return url;
     }
