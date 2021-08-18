@@ -10,7 +10,7 @@ module.exports = {
             ref: 'origin/main',
             repo: 'git@github.com:DoubleWoodLin/atom.git',
             path: '/atom-vite-h5',
-            'post-deploy': 'git reset --hard && git checkout main && git pull && npm i --production=false && pm2 startOrReload ecosystem.config.js', // -production=false 下载全量包
+            'post-deploy': 'git reset --hard && git checkout main && git pull && npm i --production=false && npm run build && pm2 startOrReload ecosystem.config.js', // -production=false 下载全量包
             env: {
                 NODE_ENV: 'production'
             }
