@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "lib-flexible/flexible";
 import "./index.css";
 import App from "./App";
-import { pm } from "@/utils";
+// import { pm } from "@/utils";
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(

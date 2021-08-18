@@ -72,7 +72,7 @@ const User = () => {
             />
           }
         />
-        <Cell
+        {/* <Cell
           hasArrow
           title="关于我们"
           onClick={() => history.push("/about")}
@@ -83,7 +83,7 @@ const User = () => {
               alt=""
             />
           }
-        />
+        /> */}
       </div>
       <Button className={s.logout} block theme="danger" onClick={logout}>
         退出登录
