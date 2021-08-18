@@ -18,7 +18,7 @@ export const imgUrlTrans = (url) => {
         return url;
     } else {
         url = `${
-      MODE == "development" ? baseUrl : "http://api.chennick.wang"
+      MODE == "development" ? baseUrl : "http://121.5.46.69:7001"
     }${url}`;
         return url;
     }
