@@ -1,11 +1,21 @@
 ## Atom 记账本应用
 ### 技术栈
-前端：React Hooks + Vite + zarm(组件库)
+前端：React Hooks + Vite + zarm +echarts
 
 后端：egg.js + MySQL
 
-<a href="http://121.5.46.69:5021">线上预览地址</a>
+功能一览：
+<ul>
+<li>账单增删改查</li>
+<li>JWT登录认证</li>
+<li>上传用户头像</li>
+<li>使用饼图(echarts)可视化，对当月收支情况进行统计</li>
+</ul>
 
+<a href="http://121.5.46.69:5021">线上预览地址</a>
+默认账号:jerry
+密码：12345
+note:欢迎注册自己的账号
 ### 后端地址
 <a href="https://github.com/DoubleWoodLin/egg-server">egg.server</a>
 
@@ -77,3 +87,6 @@ pm2 deploy production
     },
   },
 ```
+
+### MIT
+本项目采用MIT开源。
